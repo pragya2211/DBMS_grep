@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code_grep.Menu">
+   <children>
+      <ImageView fitHeight="212.0" fitWidth="996.0" layoutX="141.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/logo.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Search_box" layoutX="283.0" layoutY="497.0" prefHeight="53.0" prefWidth="635.0" promptText="                              Enter a keyword">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </TextField>
+      <Button layoutX="432.0" layoutY="591.0" mnemonicParsing="false" onMouseClicked="#ShowQuestions" prefHeight="40.0" prefWidth="338.0" text="Find questions">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="1006.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#Login" prefHeight="40.0" prefWidth="180.0" text="Log in">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="1006.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#Signup" prefHeight="40.0" prefWidth="180.0" text="Signup">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="51.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#askQuestion" prefHeight="40.0" prefWidth="180.0" text="Ask Question">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="messageFromSystem" layoutX="51.0" layoutY="123.0" prefHeight="39.0" prefWidth="324.0" promptText="                 Message from system">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="1006.0" layoutY="110.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="40.0" prefWidth="180.0" text="Logout">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

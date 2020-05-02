@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code_grep.User">
+   <children>
+      <TextField fx:id="name_signup" layoutX="217.0" layoutY="122.0" prefHeight="25.0" prefWidth="326.0" />
+      <PasswordField fx:id="password_signup" layoutX="217.0" layoutY="191.0" prefHeight="25.0" prefWidth="326.0" />
+      <TextField fx:id="userID_signup" layoutX="217.0" layoutY="157.0" prefHeight="25.0" prefWidth="326.0" />
+      <PasswordField fx:id="reEnterPassword_signup" layoutX="217.0" layoutY="228.0" prefHeight="25.0" prefWidth="326.0" />
+      <TextArea fx:id="bio_signup" layoutX="217.0" layoutY="261.0" prefHeight="112.0" prefWidth="326.0" />
+      <Text layoutX="90.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign-up for Code_&lt;g/re/p&gt;" wrappingWidth="419.13671875">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Button fx:id="signup_button" layoutX="285.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#signup" prefHeight="44.0" prefWidth="191.0" text="Sign-up">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="50.0" layoutY="122.0" prefHeight="27.0" prefWidth="128.0" text="Enter Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="157.0" prefHeight="27.0" prefWidth="128.0" text="Enter User ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="191.0" prefHeight="27.0" prefWidth="128.0" text="Enter Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="228.0" prefHeight="27.0" prefWidth="151.0" text="Re enter Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="292.0" prefHeight="25.0" prefWidth="102.0" text="Enter bio">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="469.0" prefHeight="27.0" prefWidth="82.0" text="Message">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="message_box_signup" layoutX="137.0" layoutY="470.0" prefHeight="25.0" prefWidth="436.0" />
+      <Button fx:id="clear_message_signup" layoutX="288.0" layoutY="505.0" mnemonicParsing="false" onMouseClicked="#clear_message_signup" prefHeight="18.0" prefWidth="135.0" text="Clear message">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
